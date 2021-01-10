@@ -16,6 +16,6 @@ def say_hello(name)
 end
 
 puts "Enter your name:"
-users_name = get.strip
+users_name = gets.strip
 
 puts say_hello(users_name)
